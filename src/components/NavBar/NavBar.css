@@ -1,0 +1,28 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background-color: #E9DCC9;
+    color: #2E5948;
+}
+
+.navCenter, .navRight {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logoLink {
+    color: #2E5948;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}

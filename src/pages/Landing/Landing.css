@@ -1,0 +1,7 @@
+.landingOuter {
+    width: 100%;
+    height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
