@@ -1,7 +1,47 @@
 .landingOuter {
     width: 100%;
-    height: calc(100vh - 76px);
+    height: calc(100vh - 66.5px);
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
+}
+
+.heroSectionLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 2rem;
+}
+
+.heroTagLine {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 75px;
+    color: #274c3d;
+}
+
+.heroSubHeading {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #2E5948;
+    padding-right: 60px;
+}
+
+.heroCta {
+    align-self: center;
+    padding: .75rem 2.5rem;
+    font-size: 1rem;
+    font-family: Poppins;
+    background-color: #C1E1C1;
+    border: solid 2px #274c3d;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: background-color ease-in-out .1s;
+}
+
+.heroCta:hover {
+    background-color: white;
 }
