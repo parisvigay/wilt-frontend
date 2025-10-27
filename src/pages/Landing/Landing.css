@@ -1,4 +1,4 @@
-.landingOuter {
+.landingContainer1, .landingContainer2, .landingContainer3 {
     width: 100%;
     height: calc(100vh - 66.5px);
     display: flex;
@@ -7,11 +7,19 @@
     gap: 4rem;
 }
 
+.landingContainer2, .landingContainer3 {
+    gap: 0;
+}
+
+.landingContainer3 {
+    background-color: #F6F5EE;
+}
+
 .heroSectionLeft {
     display: flex;
     flex-direction: column;
     width: 40%;
-    gap: 2rem;
+    gap: 2.25rem;
 }
 
 .heroTagLine {
@@ -19,7 +27,7 @@
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 75px;
-    color: #274c3d;
+    color: #274C3D;
 }
 
 .heroSubHeading {
@@ -27,16 +35,19 @@
     font-weight: 500;
     font-size: 1.25rem;
     color: #2E5948;
-    padding-right: 60px;
+    padding-right: 3.6rem;
 }
 
 .heroCta {
     align-self: center;
     padding: .75rem 2.5rem;
     font-size: 1rem;
+    font-weight: 500;
     font-family: Poppins;
-    background-color: #C1E1C1;
-    border: solid 2px #274c3d;
+    background-color: #9FE2BF;
+    border: solid 2px #9FE2BF;
+    color: #274c3d;
+    /* border: none; */
     border-radius: 28px;
     cursor: pointer;
     transition: background-color ease-in-out .1s;
@@ -44,4 +55,11 @@
 
 .heroCta:hover {
     background-color: white;
+}
+
+.featureCardContainer {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }

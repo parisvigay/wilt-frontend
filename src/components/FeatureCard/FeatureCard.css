@@ -1,0 +1,39 @@
+.featureCard {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 12px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.5rem;
+}
+
+.featureIconCircle {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(159, 226, 191, .2);
+}
+
+.featureCardIcon {
+    color: #274C3D;
+    font-size: 2.5rem !important;
+}
+
+.featureCardTitle {
+    color: #274C3D;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.featureCardP {
+    color: #2E5948;
+    font-family: Poppins;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    hyphens: auto;
+}
