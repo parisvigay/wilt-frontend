@@ -1,0 +1,44 @@
+.HIWStep {
+    /* background-color: aquamarine; */
+    padding: 6rem 12rem;
+    display: flex;
+}
+
+.HIWStepSpan {
+    color: #9FE2BF;
+}
+
+.HIWStepTitle {
+    font-weight: 600;
+    color: #2E5948;
+    font-size: 3.5rem;
+    font-family: Caveat;
+}
+
+.HIWStepText {
+    font-weight: 400;
+    color: #2E5948;
+    font-size: 1.25rem;
+    font-family: Poppins;
+}
+
+.HIWStepTextContainer {
+    padding-right: 8rem;
+}
+
+.HIWImg {
+    width: 15rem;
+}
+
+.HIWStep:nth-of-type(even) .HIWImg {
+    order: -1;
+}
+
+.HIWStep:nth-of-type(even) .HIWStepTextContainer {
+    padding-right: 0;
+    padding-left: 8rem;
+}
+
+/* .HIWStep:nth-of-type(even) .HIWStepTitle {
+    text-align: right;
+} */
